@@ -1,4 +1,4 @@
-
+#massojen kg ja g
 
 leiviskat = float(input("Anna leiviskat: "))
 naulat = float(input("Anna naulat: "))
