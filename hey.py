@@ -1,3 +1,3 @@
+print("Hei maailma!")
 
-from random import randint, random
 
