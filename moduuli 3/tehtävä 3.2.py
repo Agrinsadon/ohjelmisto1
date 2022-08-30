@@ -1,6 +1,6 @@
-hytti = str(input("Minkä hyttiluokan haluat?"))
+hytti = str(input("Minkä hyttiluokan haluat? "))
 if hytti == "LUX":
-    print("LUX on parvekkeellinen hytti yläkannella")
+    print("LUX on parvekkeellinen hytti yläkannella.")
 elif hytti == "A":
     print("A on ikkunallinen hytti autokannen yläpuolella.")
 elif hytti == "B":
@@ -8,4 +8,4 @@ elif hytti == "B":
 elif hytti == "C":
     print("C on ikkunaton hytti autokannen alapuolella.")
 else:
-    print("Virheellinen hytti luokka")
+    print("Virheellinen hyttiluokka.")
