@@ -2,7 +2,8 @@ Sukupuoli = str(input("Anna biologinen sukupuolisi: "))
 Hemog = int(input("ja anna hemoglobiinin arvo g/l : "))
 
 
-#Nainen
+#Nainen Hemoglobiini raja 117-175 g/l.
+
 if Sukupuoli == "nainen" and Hemog < 117:
     print("Hemoglobiini on alhainen.")
 elif Sukupuoli == "nainen" and Hemog > 175:
@@ -10,7 +11,7 @@ elif Sukupuoli == "nainen" and Hemog > 175:
 elif Sukupuoli == "nainen" and Hemog in range(117, 176):
     print("Hemoglobiini on nomaali.")
 
-#Mies
+#Mies Hemoglobiini raja 134-195 g/l.
 if Sukupuoli == "mies" and Hemog < 134:
     print("Hemoglobiini on alhainen.")
 elif Sukupuoli == "mies" and Hemog > 195:
