@@ -1,7 +1,6 @@
 Sukupuoli = str(input("Anna biologinen sukupuolisi: "))
 Hemog = int(input("ja anna hemoglobiinin arvo g/l : "))
 
-
 #Nainen Hemoglobiini raja 117-175 g/l.
 
 if Sukupuoli == "nainen" and Hemog < 117:
