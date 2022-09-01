@@ -1,3 +1,5 @@
+#arpa kone ja kertoo kuinka lähellä on tulosta
+
 import random
 
 random = random.randint(1, 10)

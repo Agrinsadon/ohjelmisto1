@@ -1,7 +1,9 @@
+#anna oikea tunnus ja salasan tai pääsy evätty
+
 valid_username = "python"
 valid_password = "rules"
 
-tryCount= 0
+tryCount = 0
 
 while tryCount < 5:
     #tryCount = tryCount + 1

@@ -1,7 +1,6 @@
-#tuuma = 2.54
-#while tuuma <= 342344324:
-    #print(tuuma)
-    #tuuma = tuuma * 2
+#tuumia senttimetreiksi niin kauan kunnes
+#käyttäjä antaa negatiivisen tuumamäärän.
+#Sen jälkeen ohjelma lopettaa toimintansa.
 
 tuuma = int(input("Anna tuuma: "))
 while tuuma > 0:
