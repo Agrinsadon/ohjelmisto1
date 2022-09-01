@@ -1,3 +1,4 @@
+#hyttiluokat erikseen
 hytti = str(input("Minkä hyttiluokan haluat? "))
 if hytti == "LUX":
     print("LUX on parvekkeellinen hytti yläkannella.")
