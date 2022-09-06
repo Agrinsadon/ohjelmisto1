@@ -1,14 +1,12 @@
 #Summan ,tulon ja keskiarvon kokonaisluku laskelma.
 
-luku1 = input("Ensimmäinen luku: ")
-luku2 = input("Toinen luku: ")
-luku3 = input("Kolmas luku: ")
-luku1 = float(luku1)
-luku2 = float(luku2)
-luku3 = float(luku3)
+luku1 = int(input("Ensimmäinen luku: "))
+luku2 = int(input("Toinen luku: "))
+luku3 = int(input("Kolmas luku: "))
+
 summa = luku1 + luku2 + luku3
-tulo = luku1 * luku2 * luku3
-keskiarvo = luku1 + luku2 + luku3 /3
-print(f"Summa on {summa} ")
-print(f"Tulo on {tulo} ")
-print(f"keskiarvo on {keskiarvo} ")
+kerto = luku1 * luku2 * luku3
+keskiarvo = summa / 3
+print(f"Summa on: %0f" %summa)
+print(f"Tulo on: %0f" %kerto)
+print(f"keskiarvo on: %0f" %keskiarvo)
