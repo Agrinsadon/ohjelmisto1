@@ -1,11 +1,4 @@
 
-lento= {"Helsinki-Vantaan ":"ICAO-koodi on EFHK"}
-command = input("Anna komento: ").lower()
-if command == "haku":
-    print("Anna ICAO-koodi")
-
-
-
 def o():
     while True:
         command = input("Anna komento: ").lower()
@@ -23,7 +16,7 @@ def o():
         else:
             print("Anna Uusi lentoasema, haku tai lopeta")
 
-
+c
 
 print(o())
-print(command)
+
