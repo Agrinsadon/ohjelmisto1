@@ -13,5 +13,3 @@ while nimi != "":
         print("Tämä on uusi nimi")
 for _ in lista:
     print(_)
-
-
