@@ -1,15 +1,12 @@
-
-lista = set()
-print(type(lista))
-
-nimi = input("Anna nimi: ")
-print("Tämä on uusi nimi")
+nimet = set()
+nimi = input("Anna nimi : ")
 while nimi != "":
-    lista.add(nimi)
-    nimi = str(input("Anna nimi: "))
-    if nimi in lista:
-        print("Nimi on annettu jo")
-    elif nimi not in lista:
-        print("Tämä on uusi nimi")
-for _ in lista:
-    print(_)
+
+    if nimi in nimet:
+        print("Aiemmin syötetty nimi")
+    else:
+        print("Uusi nimi")
+    nimet.add(nimi)
+    nimi = input("Anna nimi : ")
+for n in nimet:
+    print(n)

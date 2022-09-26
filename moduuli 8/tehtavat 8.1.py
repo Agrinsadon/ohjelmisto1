@@ -17,12 +17,5 @@ tulos = kursori.fetchall()
 for rivi in tulos:
     print(f"{rivi[0]}, {rivi[1]}")
 
-maa = input("Maakoodi: ")
-sql = "SELECT type, count(*) FROM airport WHERE iso_country = '"+ maa +"' Group by type"
-kursori = yhteys.cursor()
-kursori.execute(sql)
-tulos = kursori.fetchall()
-for rivi in tulos:
-    print(f"{rivi[0]}, {rivi[1]}")
 
 
