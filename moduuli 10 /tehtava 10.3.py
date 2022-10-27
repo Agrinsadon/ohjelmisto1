@@ -50,9 +50,10 @@ class Talo:
 print("Palohälytys!")
 Talo = Talo(1, 7, 3)
 
+Talo.Hissi_ajo(3, 1)
 Talo.Hissi_ajo(1, 3)
 Talo.Hissi_ajo(2, 2)
 
 Talo.alarm()
 
-
+#

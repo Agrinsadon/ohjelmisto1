@@ -62,3 +62,5 @@ while not stop:
         print(f"Kierros {kierros1}")
     kierros1 += 1
 kisa.lista()
+
+#
