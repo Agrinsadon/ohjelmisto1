@@ -8,14 +8,14 @@ class Car:
         self.huippunopeus = huippunopeus
         self.rekisterinumero = rekisterinumero
 
-    def accel(self, speed):
+    def kiihtyvyys(self, speed):
         self.nopeus = self.nopeus + speed
         if self.nopeus > self.nopeus:
             self.nopeus = self.nopeus
         elif self.nopeus < 0:
             self.nopeus = 0
 
-    def travel(self, tunti):
+    def matka_aika(self, tunti):
         self.kokonaismatka = self.kokonaismatka + (self.nopeus * tunti)
 
 
@@ -28,8 +28,8 @@ for i in range(10):
 stopper = False
 while not stopper:
     for i in cars:
-        i.accel(random.randint(-10, 15))
-        i.travel(1)
+        i.kiihtyvyys(random.randint(-10, 15))
+        i.matka_aika(1)
         if i.kokonaismatka >= 10000:
             for n in cars:
                 print(f"|{n.rekisterinumero}|{n.huippunopeus}|{n.nopeus}|{n.kokonaismatka}|")
