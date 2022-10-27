@@ -1,3 +1,4 @@
+from prettytable import PrettyTable
 import random
 class Car:
     def __init__(self, rekisterinumero, huippunopeus, nopeus, kokonaismatka):
@@ -19,8 +20,12 @@ class Car:
     def matka_aika(self, tunti):
         self.kokonaismatka = self.kokonaismatka + (self.nopeus * tunti)
 
+def moi():
+    x.field_names = ["Rekisterinumero", "Huippunopeus", "Hetkellinen nopeus", "Kokomatka"]
+    for i in cars:
+        x.add_row([i.rekisterinumero, f"{i.huippunopeus}KM/H", f"{i.nopeus}KM/H", f"{i.kokonaismatka}KM"])
 
-# Pääohjelma
+x = PrettyTable()
 cars = []
 
 for i in range(10):
@@ -32,8 +37,6 @@ while not stopper:
         i.kiihtyvyys(random.randint(-10, 15))
         i.matka_aika(1)
         if i.kokonaismatka >= 10000:
-            for n in cars:
-                print(
-                    f"Rekisterinumero: {n.rekisterinumero}, Huippunopeus: {n.huippunopeus}KM/H,"
-                    f" Hetkellinen nopeus: {n.nopeus}KM/H, Kokonaismatka: {n.kokonaismatka}KM.")
-                stopper = True
+            stopper = True
+moi()
+print(x)
