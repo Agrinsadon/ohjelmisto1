@@ -6,12 +6,15 @@ class Car:
         self.huippunopeus = huippunopeus
         self.rekisterinumero = rekisterinumero
 
-    def kiihtyvyys(self, speed):
-        self.nopeus = self.nopeus + speed
-        if self.nopeus > self.nopeus:
-            self.nopeus = self.nopeus
-        elif self.nopeus < 0:
+    def kiihtyvyys(self, nopeuden_muunnos):
+        if self.nopeus + nopeuden_muunnos >= 0 and self.nopeus + nopeuden_muunnos <= self.huippunopeus:
+            self.nopeus = self.nopeus + nopeuden_muunnos
+
+        elif self.nopeus + nopeuden_muunnos < 0:
             self.nopeus = 0
+
+        elif self.nopeus + nopeuden_muunnos > self.huippunopeus:
+            self.nopeus = self.huippunopeus
 
     def matka_aika(self, tunti):
         self.kokonaismatka = self.kokonaismatka + (self.nopeus * tunti)
@@ -30,5 +33,7 @@ while not stopper:
         i.matka_aika(1)
         if i.kokonaismatka >= 10000:
             for n in cars:
-                print(f"|{n.rekisterinumero}|{n.huippunopeus}|{n.nopeus}|{n.kokonaismatka}|")
+                print(
+                    f"Rekisterinumero: {n.rekisterinumero}, Huippunopeus: {n.huippunopeus}KM/H,"
+                    f" Hetkellinen nopeus: {n.nopeus}KM/H, Kokonaismatka: {n.kokonaismatka}KM.")
                 stopper = True
