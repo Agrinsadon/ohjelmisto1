@@ -1,7 +1,5 @@
 import random
 class Car:
-    created = 0
-
     def __init__(self, rekisterinumero, huippunopeus, nopeus, kokonaismatka):
         self.kokonaismatka = kokonaismatka
         self.nopeus = nopeus
