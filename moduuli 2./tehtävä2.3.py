@@ -8,3 +8,5 @@ area = kanta * korkeus
 piiri = (kanta + korkeus) * 2
 print(f"suorakolmion pinta-ala on {area:.2f} neliömetriä.")
 print(f"suorakolmion piiri on {piiri:.2f}.")
+
+#Agrin_Sadon

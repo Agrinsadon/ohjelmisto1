@@ -10,3 +10,5 @@ keskiarvo = summa / 3
 print(f"Summa on: %0f" %summa)
 print(f"Tulo on: %0f" %kerto)
 print(f"keskiarvo on: %0f" %keskiarvo)
+
+#Agrin_Sadon

@@ -14,3 +14,5 @@ kilot = int(kilo // 1)
 grammat = round((kilo % 1) * 1000, 2)
 
 print(f"Annettujen lukumaarijen massa on {kilot: .0f} kilogrammaa ja {grammat: } grammaa")
+
+#Agrin_Sadon
