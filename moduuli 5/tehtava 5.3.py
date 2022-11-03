@@ -14,3 +14,5 @@ if luku:
     print(kokoluku, "ei ole alkuluku")
 else:
     print(kokoluku, "on alkuluku")
+
+#Agrin_Sadon
