@@ -11,3 +11,5 @@ while True:
 
 print("pienin luku on: ", min(tulot))
 print("Suurin luku on: ", max(tulot))
+
+#Agrin_Sadon

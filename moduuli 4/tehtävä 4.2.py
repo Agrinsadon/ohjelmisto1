@@ -10,6 +10,8 @@ while tuuma > 0:
 else:
         print("Ohjelma sammu, annoit negatiivisen tuloksen!")
 
+#Agrin_Sadon
+
 
 
 
