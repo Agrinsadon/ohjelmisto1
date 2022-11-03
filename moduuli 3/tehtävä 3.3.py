@@ -19,3 +19,4 @@ elif Sukupuoli == "mies" and Hemog > 195:
 elif Sukupuoli == "mies" and Hemog in range(134, 196):
     print("Hemoglobiini on nomaali.")
 
+#Agrin_Sadon
