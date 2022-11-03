@@ -25,5 +25,5 @@ if taulu[0] > taulu[1]:
 elif taulu[0] < taulu[1]:
     print("Pizza1 on halvempi kuin pizza2")
 
-
+#Agrin_Sadon
 

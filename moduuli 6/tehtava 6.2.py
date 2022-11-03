@@ -19,3 +19,5 @@ while True:
     if heitto == inputti:
         print(f"Sait",inputti)
         break
+
+#Agrin_Sadon

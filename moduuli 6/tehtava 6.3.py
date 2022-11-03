@@ -16,3 +16,5 @@ while True:
     if gl > litra:
         print("Annoit negatiivisen numeron!")
         break
+
+#Agrin_Sadon
