@@ -1,0 +1,27 @@
+Python merkit
+
+Input() =  käytämme funktiota ottamaan syötteitä käyttäjältä. Mitä tahansa syötät syötteeksi, syöttöfunktio muuntaa sen merkkijonoksi. (Ei näkyvillä)
+
+Float() = on menetelmä, joka palauttaa liukuluku annetulle numerolle tai merkkijonolle. (Ei näkyvillä)
+
+int(arvo , kanta) = funktio muuntaa määritetyn arvon kokonaisluvuksi
+
+Round() = Arvot pyöristetään lähimpään 10:n kerrannaiseen potenssiin miinus desimaalit; jos kaksi monikertaa ovat yhtä lähellä, pyöristys tehdään pois 0:sta (eli esimerkiksi pyöreä(0.5) on 1.0 ja pyöreä(-0.5) on -1.0).
+
+range() = funktio palauttaa numerosarjan, joka alkaa oletusarvoisesti 0:sta ja kasvaa 1:llä (oletusarvoisesti) ja pysähtyy ennen tiettyä numeroa.
+
+f = f-merkkijonot käyttävät aaltosulkeet tallentaakseen arvot, jotka tulee muotoilla merkkijonoksi. Harkitse tätä syntaksia: f"Tämä on merkkijono."
+
+Print = näyttää lopussa mitä on saatu ja ottaa vastaan ei anna mitään
+
+.0f tai .2f = näyttää luvun vähemmillä numeroilla
+
+{} = vastaukset mitä näkyy yhteenlaskussa
+
+, = väli
+
+
+
+2954595 / 1000 = 29.54595
+2954595 // 1000 = 29.0
+2954595 % 1000 = 54595 (jakojäännös)
