@@ -12,7 +12,14 @@ class auto:
         self.huippunopeus = huippunopeus
         self.nopeus = nopeus
         self.kuljettu_matka = kuljettu_matka
+        print("Uusi auto luotu")
+
+    def info(self):
+        print(f"rekisterinumero: {self.rekisteritunnus}, Huippunopeus: {self.huippunopeus} KM/H"
+              f"\nHetkellinen nopeus: {self.nopeus} KM/H, Kuljettumatka: {self.kuljettu_matka} M")
 
 auto1 = auto(f"HIZ-709", 200)
-print(f"auto1\nrekisterinumero on {auto1.rekisteritunnus} \nHuippunopeus on {auto1.huippunopeus} "
-    f"\nHetkellinen nopeus on {auto1.nopeus}KM/H \nKuljettumatka on {auto1.kuljettu_matka} M")
+auto1.info()
+print("------------------------------------------------")
+auto2 = auto(f"GUG-112", 180)
+auto2.info()

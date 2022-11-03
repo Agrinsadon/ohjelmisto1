@@ -13,6 +13,6 @@ while True:
     litra = muuntaa(gl)
     print(f"{gl} gallonia on {litra} litraa")
     gl = float(input("Anna galloina: "))
-    if gl < 0:
+    if gl > litra:
         print("Annoit negatiivisen numeron!")
         break

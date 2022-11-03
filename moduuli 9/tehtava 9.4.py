@@ -23,7 +23,7 @@ class Car:
 def moi():
     x.field_names = ["Rekisterinumero", "Huippunopeus", "Hetkellinen nopeus", "Kokomatka"]
     for i in cars:
-        x.add_row([i.rekisterinumero, f"{i.huippunopeus}KM/H", f"{i.nopeus}KM/H", f"{i.kokonaismatka}KM"])
+        x.add_row([f"{i.rekisterinumero}", f"{i.huippunopeus}KM/H", f"{i.nopeus}KM/H", f"{i.kokonaismatka}KM"])
 
 x = PrettyTable()
 cars = []

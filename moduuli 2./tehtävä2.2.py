@@ -1,7 +1,6 @@
 import math
 #Ympyrä säteen pinta-ala laskelma
 
-r_string = input("Anna ympyrän säde (m): ")
-r = float(r_string)
-area = math.pi * r * r
-print(f"{r} (m) säteisen ympyrän pinta-ala on n. {area:.3f} neliömetriä.")
+r_string = float(input("Anna ympyrän säde (m): "))
+area = math.pi * r_string * r_string
+print(f"{r_string} (m) säteisen ympyrän pinta-ala on n. {area:.3f} neliömetriä.")

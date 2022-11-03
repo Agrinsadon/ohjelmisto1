@@ -5,7 +5,6 @@
 
 import random
 
-tulos = 6
 
 def noppa():
     row=[]

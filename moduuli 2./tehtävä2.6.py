@@ -1,7 +1,7 @@
 #arvotut numerot
 
 import random
-from random import randint
+
 
 numerot1 = random.sample(range(10),3)
 numerot2 = random.sample(range(1, 7),4)

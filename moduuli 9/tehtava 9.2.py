@@ -25,19 +25,22 @@ class auto:
 
         elif self.nopeus + nopeuden_muunnos > self.huippunopeus:
             self.nopeus = self.huippunopeus
+    def info(self):
+        print(f"rekisterinumero on {self.rekisteritunnus} \nHuippunopeus on {self.huippunopeus} KM/H"
+              f"\nHetkellinen nopeus on {self.nopeus} KM/H \nKuljettumatka on {self.kuljettu_matka} M")
+
 
 #PÄÄOHJELMA
-auto1 = auto(f"HIZ-709", 142)
-
-print(f"auto1\nrekisterinumero on {auto1.rekisteritunnus} \nHuippunopeus on {auto1.huippunopeus} KM/H"
-f"\nHetkellinen nopeus on {auto1.nopeus} KM/H \nKuljettumatka on {auto1.kuljettu_matka} M")
-
+auto1 = auto(f"HIZ-709", 200)
 auto1.accelerate(30)
 auto1.accelerate(70)
 auto1.accelerate(50)
+auto1.info()
 
-print(f"Nopeus nyt: {auto1.nopeus}")
+print(f"Nopeus nyt: {auto1.nopeus} KM/H")
+print("Hidastetaan -200 KM/H")
 auto1.accelerate(-200)
-print(f"Nopeus nyt: {auto1.nopeus}")
+print(f"Nopeus nyt: {auto1.nopeus} KM/H")
+
 
 

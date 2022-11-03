@@ -17,5 +17,5 @@ while True:
     heitto = noppa()
     print(heitto)
     if heitto == inputti:
-        print(f"Sait {inputti}")
+        print(f"Sait",inputti)
         break

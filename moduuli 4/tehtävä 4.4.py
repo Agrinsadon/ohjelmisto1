@@ -3,14 +3,14 @@
 import random
 
 random = random.randint(1, 10)
-numero = ""
+numero = int(input("Arvaa luku: "))
 
 while numero != random:
-    numero = int(input("Arvaa luku: "))
     if numero > random:
        print("Liian suuri arvaus.")
     elif numero < random:
      print("Liian pieni arvaus. ")
+    numero = int(input("Arvaa luku: "))
 
 else:
     print("Oikein.")
