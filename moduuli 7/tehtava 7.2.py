@@ -10,3 +10,5 @@ while nimi != "":
     nimi = input("Anna nimi : ")
 for n in nimet:
     print(n)
+
+#Agrin_Sadon
