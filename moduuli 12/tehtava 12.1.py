@@ -9,3 +9,5 @@ try:
         print(vastaus_json["value"])
 except requests.exceptions.RequestException as e:
     print ("Hakua ei voitu suorittaa.")
+
+#Agrin_Sadon

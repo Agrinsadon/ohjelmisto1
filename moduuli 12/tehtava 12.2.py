@@ -19,3 +19,5 @@ try:
         print(f"{int(lampo - 273.15)}°C")
 except requests.exceptions.RequestException as e:
     print ("Hakua ei voitu suorittaa.")
+
+#Agrin_Sadon
