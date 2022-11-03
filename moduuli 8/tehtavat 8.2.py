@@ -16,3 +16,5 @@ kursori.execute(sql)
 tulos = kursori.fetchall()
 for rivi in tulos:
     print(f"{rivi[0]}, {rivi[1]}")
+
+#Agrin_Sadon
